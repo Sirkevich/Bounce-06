@@ -1,0 +1,114 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin-top: 40px;
+    margin-bottom: 77px; 
+    background-color:rgb(126, 102, 76);
+    background-image:url('./img/wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: "Open Sans", sans-serif;
+    color:rgb(255, 255, 255);  
+}
+
+.header {
+    margin-bottom: 203px;
+}
+
+.promo__container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo__logo {
+    display: inline-block;
+    margin-top: 4px;
+    vertical-align: top;  
+}
+
+.promo__logo img {
+   display: block;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 0px;
+    margin-left: 480px;
+    vertical-align: top;
+}
+
+.nav__link { 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+.nav__link:hover {
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:50px;
+}
+
+.nav__link-active {
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    border:1px solid rgb(255, 255, 255);
+    border-radius:50px;
+}
+
+.promo__about {
+    text-align: center;
+    margin-bottom: 220px;
+} 
+
+.promo__title {
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    line-height: 70px; 
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 35px;  
+    margin-top: 0;
+    margin-bottom: 20px;  
+} 
+
+.promo__text {
+    width: 604px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    margin: 0 auto; 
+} 
+
+.footer {
+    text-align: center;
+}
+
+.btn-down{
+    width: 36px;
+    height: 36px;
+    background-color: rgb(25, 189, 154);
+    background-image: url(./img/btn-down-img.png); 
+    background-repeat: no-repeat;
+    background-position:center;  
+    border-radius:50%;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}

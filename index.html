@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bouncy</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="promo">
+        <div class="promo__container">
+            <header class="header">
+                <a class="promo__logo" href="index.html">
+                    <img class="promo__img" src="./img/logo.png" alt="logo-bouncy" width="112" height="19">
+                </a>
+                <nav class="nav">           
+                    <a class="nav__link nav__link-active" href="#">Hello</a>
+                    <a class="nav__link" href="#">About</a>
+                    <a class="nav__link" href="#">Services</a>
+                    <a class="nav__link" href="#">Portfolio</a>
+                    <a class="nav__link" href="#">Team</a>
+                    <a class="nav__link" href="#">Blog</a>
+                    <a class="nav__link" href="#">Contact</a>      
+                </nav>
+            </header>
+            <div class="promo__about">
+                <h1 class="promo__title">
+                    We Are Code Cafe
+                </h1>
+                <p class="promo__text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui 
+                    blanditiis praesentium voluptatum
+                </p>
+            </div>
+            <footer class="footer">
+                <button class="btn-down"></button>   
+            </footer>
+        </div>
+    </section>
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+          link.addEventListener('click', e => {
+            document.querySelectorAll('nav a').forEach(link => link.classList.remove('nav__link-active'));
+            e.target.classList.add('nav__link-active');
+          })
+        })
+    </script>
+</body>
+</html>      
